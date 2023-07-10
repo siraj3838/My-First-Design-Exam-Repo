@@ -5,7 +5,7 @@
 /*This is Top Header css*/
 
 .head-main-container{
-    height: 850px;
+    height: 800px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@
     background-color: #E554731A;
     justify-content: space-between;
     gap: 97px;
+    margin-right: 0px;
 }
 
 .h-container{
