@@ -11,6 +11,7 @@ body{
 
 .header-container{
     background-color: #E554731A;
+    margin-bottom: 100px;
 }
 
 .head-first-container{
@@ -64,7 +65,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .feauture-image-container{
@@ -107,6 +108,7 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+    padding-bottom: 30px;
 }
 
 .feauture-image-contain,li{
@@ -126,8 +128,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
     height: 200px;
+    margin: 0px 430px;
+}
+.icon-container{
+    align-items: center;
+    text-align: center;
+}
+
+.icon-container, h4{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
 }
 
 
