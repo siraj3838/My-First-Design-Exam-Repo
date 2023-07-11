@@ -136,13 +136,58 @@ body{
 }
 
 
+/*This is Late Deal Css*/
 
+.late-container{
+    background-image: url(Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 380px;
+    height: 300px;
+}
 
+.late-head{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 40px;
+}
 
+.late-blog{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+    color: #27272799;
+}
 
+.formone, .late-form{
+    color: #27272799;
+    padding: 10px 120px;
+    border: 0;
+    font-size: 14px;
+    border-radius: 2px;
+}
 
+.f-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
 
-
+.btn-primary-two{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background:#E55473;
+    border: 0;
+    padding: 7px 12px;
+}
 
 
 
