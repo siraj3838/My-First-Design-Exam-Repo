@@ -57,6 +57,30 @@ body{
 }
 
 
+/*This is my Profile css*/
+.banner{
+    padding: 0px 30px 0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff8ca5;
+    margin-bottom: 128px;
+}
+.banner .banner-pic{
+    width: 500px;
+}
+
+.banner-h{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-co{
+    max-width: 500px;
+}
+
 
 /*This is our Featured Css*/
 
