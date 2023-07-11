@@ -16,7 +16,6 @@ body{
 .head-first-container{
     display: flex;
     justify-content: space-around;
-    
     text-align: left;
     gap: 10px;
 }
@@ -138,6 +137,7 @@ body{
 
 /*This is Late Deal Css*/
 
+
 .late-container{
     background-image: url(Asset/Rectangle\ 9.png);
     background-repeat: no-repeat;
@@ -189,8 +189,18 @@ body{
     padding: 7px 12px;
 }
 
+/*This is footer css*/
 
-
+.footer-main{
+    background-color: #111010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 128px;
+    text-align: center;
+}
 
 
 
