@@ -9,6 +9,54 @@ body{
 }
 /*This is Top Header css*/
 
+.header-container{
+    background-color: #E554731A;
+}
+
+.head-first-container{
+    display: flex;
+    justify-content: space-around;
+    
+    text-align: left;
+    gap: 10px;
+}
+
+.header-second-container-blog{
+    padding: 30px 30px 50px 120px;
+}
+
+.header-headline{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.header-blog{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+
+.head-flower-photo{
+    width: 400px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+
+.btn-primary{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background:#E55473;
+    border: 0;
+    padding: 20px 43px;
+}
+
+
 
 
 /*This is Hot Deal css*/
@@ -19,7 +67,7 @@ body{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    height: 560px;
+    height: 720px;
     width: 100%;
     border-radius: 8px;
     border: 0;
@@ -51,23 +99,25 @@ body{
 /*This is Instagram css*/
 
 .istagram-container{
-    height: 700px;
+    height: 460px;
     width: 100%;
-    text-align: center;
     margin-top: 128px;
 }
 
 .instagram-image-container{
     display: flex;
-    margin-left: 240px;
-    margin-right: 24px;
-    margin-top: 48px;
-    margin-bottom: 128px;
+    margin: 30px 100px;
     gap: 24px;
+    justify-content: center;
 }
 
 .intagram-image-child{
     align-items: center;
+}
+
+.image-flower{
+    width: 170px;
+    height: 240px;
 }
 
 .instagram-headline{
