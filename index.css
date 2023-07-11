@@ -57,6 +57,55 @@ body{
 
 
 
+/*This is Featured Css*/
+
+.istagram-container{
+    height: 460px;
+    width: 100%;
+    margin-top: 128px;
+}
+
+.instagram-image-container{
+    display: flex;
+    margin: 30px 100px;
+    gap: 24px;
+    justify-content: center;
+}
+
+.intagram-image-child{
+    align-items: center;
+}
+
+.image-flower{
+    width: 170px;
+    height: 220px;
+}
+
+.instagram-headline{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.instagram-blog{
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.pink-flower-ref{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+
 
 /*This is Hot Deal css*/
 
