@@ -57,53 +57,63 @@ body{
 
 
 
-/*This is Featured Css*/
+/*This is our Featured Css*/
 
-.istagram-container{
-    height: 460px;
-    width: 100%;
-    margin-top: 128px;
-}
-
-.instagram-image-container{
-    display: flex;
-    margin: 30px 100px;
-    gap: 24px;
-    justify-content: center;
-}
-
-.intagram-image-child{
-    align-items: center;
-}
-
-.image-flower{
-    width: 170px;
-    height: 220px;
-}
-
-.instagram-headline{
+.feauture-headline{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    padding-bottom: 24px;
+    padding-bottom: 100px;
 }
 
-.instagram-blog{
+.feauture-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.image-feauture{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 200px;
+    height: 300px;
+}
+.image-feauturet{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 200px;
+    height: 300px;
+}
+.image-feauturett{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 200px;
+    height: 300px;
+}
+
+.feauture-image-contain{
+    margin: 100px 10px 0 10px;
+}
+.feauture-image-containt{
+    margin: 60px 20px 40px 20px;
+}
+.feauture-image-containtt{
+    margin: 100px 10px 0 10px;
+}
+
+.feauture-blog{
     color: #27272799;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
 
-
-.pink-flower-ref{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
+.feauture-image-contain,li{
+    list-style: none;
+    padding-left: 30px;
 }
+
 
 
 
@@ -186,14 +196,25 @@ body{
 
 /*This is Late Deal Css*/
 
+.late-deal-sec,.late-container{
+    width: 100%;
+    margin-right: 100px;
+}
 
 .late-container{
     background-image: url(Asset/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 0px 380px;
-    height: 300px;
+    margin-left: 100px;
+    padding-top: 80px;
+
+}
+.late-main-container{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
 }
 
 .late-head{
@@ -214,7 +235,7 @@ body{
 
 .formone, .late-form{
     color: #27272799;
-    padding: 10px 120px;
+    padding: 10px 260px;
     border: 0;
     font-size: 14px;
     border-radius: 2px;
@@ -226,6 +247,7 @@ body{
     align-items: center;
     text-align: center;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .btn-primary-two{
